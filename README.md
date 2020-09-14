@@ -20,9 +20,9 @@ Loss는 기존의 classification loss에 adversarial training loss를 더한 방
 이를 통해서 분류 성능이 올라가게 되고, 아래 표에 비교군(LSTM으로 구성된 classifier)와 대조군(LSTM + Adversarial training 개념 적용한 classifier)를 참고하시면 됩니다.
 
 |  | Loss | ACC |   
-| ---          | ---          | ---          | ---          
-| LSTM | x3 | 0.3938 | 0.8395 |  
-| LSTM + adv | # | x3 | # |  
+| ---          | ---          | ---                    
+| LSTM | 0.3938 | 0.8395 |  
+| LSTM + adv |  |  |  
 
 ## 2. 향후 방향
 XLnet 학습이 완료되면, 해당 XL net으로 감성 분석 데이터의 분류기 학습 과정을 진행할 예정이고, 추가적으로 XLnet에 adversarial training 요소를 추가 시켜서 분류 성능을 더욱 극대화 시킬 예정입니다.
